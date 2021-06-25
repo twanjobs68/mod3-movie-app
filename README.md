@@ -69,4 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Github Link - https://github.com/twanjobs68/NetFlix
+Github Link - https://github.com/twanjobs68/mod3-movie-app.git
+This project is the 3 version.  All original commits are under Repository fs-movie-app.
+This app will allow a user to login or create a user name and login if not already validated.
+They will then be shown a home page of the movie app and be able to select a movie and have results of movie search returned to them.  There is a Welcome page as well as a page dedicated to those who contributed to my application success.
+There are two tables created. One will hold the users name and password as well as an email and the other will contain the users favorite movies and a few results from the saved favorite.
