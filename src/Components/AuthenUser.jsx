@@ -1,7 +1,6 @@
+import React from 'react';
 
-
-
-function authenUser(props) {
+function authenUser() {
 
     
     return (
@@ -16,7 +15,7 @@ function authenUser(props) {
     
             alert("Login Successful!")
    
-                // return false;
+                //return true;
 
         }   
     else

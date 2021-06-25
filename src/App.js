@@ -17,13 +17,13 @@ function App() {
     <div className="App">
       <Router>
         <Switch>    
-           <Route exact path ="/movielogin" component={MovieLogin} />  
+           <Route exact path ="/" component={MovieLogin} />  
            <div>
              <Navbr/>
        {/*3 make a route to the component by replacing <about /> with the following*/} 
        {/*4.Use Switch(wrap routes in a switch tag. go to path don't render anything else) and Exact to go to exact(if component is exactly the forward slash then go to home) paths*/}
        {/* <Switch> */}
-             <Route path ="/" exact component={Home} />  
+             <Route path ="/home" exact component={Home} />  
           {/* <Route path ="/movielogin" exact component={MovieLogin} />   */}
              <Route path="/welcomebanner" component={Welcomebanner}/>
              <Route path ="/searchapi" component={Searchapi}/>
