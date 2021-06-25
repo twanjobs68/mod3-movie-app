@@ -1,0 +1,239 @@
+
+ .App {
+  /* text-align: center; */
+  /* margin: .5%; */
+  top:0;
+  bottom: 0;
+} 
+
+
+.tgflixbx{
+  position: absolute;
+  height: 22px;
+  bottom: -25px;
+  right: 35px;
+ 
+}
+
+.myFlixbx{
+  position: absolute;
+   /* margin: 36%;*/
+   bottom: -25px;
+   right: 35px;
+  }
+
+h1{
+
+     height: 22vm;
+  width: 160px;
+  /* text-align: center; */
+  background: red;
+  color: white;
+  border: 3px solid black;
+  margin: 20%; 
+  bottom: 15%;
+ /* justify-content: center;*/
+  align-items:flex-end;
+ }
+
+ .homecss{
+  background-color: red;
+}
+
+.creditsBackground{
+  background-color: black;
+}
+
+.sideMenu{
+  background-color:black;
+  width:auto;
+  height:100%;
+  margin:0px;
+  justify-content:space-around;
+  box-sizing:border-box;
+  position:absolute;
+  /* display:flex; */
+  color:white;
+  /* linear-gradient=(to-right, black,gray);  */
+  /* border: 2px solid black; */
+}
+
+.bgPicture{
+  width: 100vw;
+  height:100vh; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(Images/DareDevil.jpg);
+  background-size: cover;  
+
+ } 
+
+li{
+  list-style: none;
+}
+#movieSelector{
+  color:black;
+  text-shadow: -3px -3px 4px black;
+  text-align:center;
+  font:20pt "arial black",cursive;
+
+}
+
+.who{
+  align-items: center;
+  justify-content: center;
+  border-radius: 10%; 
+  
+}
+
+.searchcss{
+display:flex;
+border: 2px solid red;
+box-shadow: 0 0 100px ;
+height: 31em;
+width: 35em;
+justify-content: center ;
+margin:auto;
+align-items: center;
+background: linear-gradient(10deg,red , pink 30%, white );
+}
+
+
+.searchcBar{
+  display:flex;
+  border: 2px solid black;
+  color:black;
+ background-color: lightcoral;
+  border-width: 1em 1em 1em 1em; 
+  border:1em 1em 1em 1em red outset; 
+  float: right;
+} 
+
+.credits{
+  background: linear-gradient(0deg,red , pink 30%, white );
+  
+}
+.welcomeBanner{
+  /* background: linear-gradient(35deg , red, pink 30%, white);
+  background: linear-gradient(45deg, red, pink 10%, white); */
+  background: -ms-radial-gradient(white 35% , pink, red);
+  background: -moz-radial-gradient(white 35%, pink, red);
+  background: -webkit-radial-gradient(white 35%, pink, red);
+  background: -o-radial-gradient(white 35%, pink, red);
+  background: radial-gradient(white 35%, pink, red);
+  justify-content: center;
+  align-items: center;
+}
+#welcomeBackground{
+  /* background-color: green; */
+   width: 67em;
+  height: 30em;
+  border:5px solid black;
+  float:bottom;
+  background: -ms-repeating-linear-gradient(pink, gray 10%, white 30%); 
+  background: -moz-repeating-linear-gradient( pink, gray 10%, white 30%); 
+  background: -webkit-repeating-linear-gradient(pink, gray 10%, white 30%); 
+  background: -o-repeating-linear-gradient( pink, gray 10%, white 30%); 
+  background: repeating-linear-gradient(pink, gray 10,% white 30%); 
+
+}
+
+.netN {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100%;
+}
+
+.moveNn {
+  position: relative; /* for iOS */
+  animation: move 6s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  from {
+    z-index: 1; /* animate from behind everything... */
+    transform: translate(-60px, -60px) scale(0.5);
+  }
+  to {
+    z-index: 6; /* ...to in front of everything */
+    transform: translate(60px, 10px) scale(1);
+  }
+}
+
+.nnn {
+  width: min(70vw, 400px); /* scales down on smaller screens */
+  animation: bob 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes bob {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(15px);
+  }
+}
+
+myNHdr {
+  position: absolute;
+  z-index: 5;
+  top: calc(50% - 200px); /* fixed distance above walls */
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 3.25rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 0 #111;
+}
+
+.wall {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(3px);
+  transform: translate3d(0, 0, 0); /* prevents blur from disappearing in Safari */
+}
+
+.stop-1 {
+  z-index: 1;
+  top: calc(50% - 60px);
+  background-color: #261b33;
+}
+
+.stop-2 {
+  z-index: 2;
+  top: calc(50% - 40px);
+  background-color: #372c45;
+}
+
+.stop-3 {
+  z-index: 3;
+  top: calc(50% - 10px);
+  background-color: #493d58;
+}
+
+.stop-4 {
+  z-index: 4;
+  top: calc(50% + 30px);
+  background-color: #5d506b;
+}
+
+.stop-5 {
+  z-index: 5;
+  top: calc(50% + 80px);
+  background-color: #70637f;
+}
+.button{
+  color:white;
+  font-weight:bold;
+  text-decoration: none;
+  display:block;
+  background: red;
+  border:5px inset red;
+  }
+
+
