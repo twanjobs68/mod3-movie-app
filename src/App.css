@@ -134,7 +134,7 @@ background: linear-gradient(10deg,red , pink 30%, white );
   background: -moz-repeating-linear-gradient( pink, gray 10%, white 30%); 
   background: -webkit-repeating-linear-gradient(pink, gray 10%, white 30%); 
   background: -o-repeating-linear-gradient( pink, gray 10%, white 30%); 
-  background: repeating-linear-gradient(pink, gray 10,% white 30%); 
+  background: repeating-linear-gradient(pink, gray 10% white 30%); 
 
 }
 
@@ -235,5 +235,6 @@ myNHdr {
   background: red;
   border:5px inset red;
   }
+/*  */
 
 

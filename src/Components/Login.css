@@ -1,0 +1,87 @@
+.loginw{
+
+    padding:0;
+    font-family:cursive;
+    margin:0;
+    /* background-image: url(Images/pstars.jpg);   */
+    /*background-repeat: no-repeat ;*/
+    background-size: cover;
+    }
+.circle{
+      margin: 150;
+    }
+div{
+    
+        color: white;
+        
+    }
+    
+.box{
+        /* width: 250px;
+        padding:25px; */
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        /* background: rgba(133, 111, 111, 0.4); */
+        text-align: center;
+    }
+    
+h2
+    {
+        /* border: 1px solid black; */
+        color: rgb(182, 171, 21);
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    
+    /* when we click on text or password field it should enlarge */
+    
+    /*format username and password fields*/
+    .box input[type="text"],.box input[type="password"] 
+    {
+    border: 0;
+    margin: 15px auto;
+    background: none;
+    padding:10px 5px;
+    display: block;
+    border: 2px dashed rgba(114, 241, 24, 0.796);
+    outline:none;
+    color: rgb(199, 198, 188);
+    width:200px;
+    text-shadow: peru;
+    border-radius: 25px;
+    transition: 0.20px;
+    text-align: center;
+    outline: none;
+    }
+    
+      /* when clicking on text or pasword field the field should enlarge  */
+      .box input[type="text"] focus,.box input[type="password"]:focus
+      {
+      width: 200px;
+      border-color: black;
+      }
+    
+    /*submit button css*/
+      .box input[type="submit"]{
+        border: 0;
+        margin: 15px auto;
+        background: purple;
+        padding:0px 25px;
+        display: block;
+        border: 3px solid red;
+        outline:none;
+        color: white;
+        cursor:pointer;
+        border-radius: 25px;
+        transition: 0.20px;
+        text-align: center;
+        outline: none;
+    
+      }
+    
+      .box input[type="submit"]:hover{
+          background: rgba(255, 166, 0, 0.76);
+    
+      }

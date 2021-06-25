@@ -26,6 +26,11 @@ function Navbr() {
                     <Link to = "/credits">
                         <li>CREDITS</li>
                     </Link>
+
+                    <br></br>
+                    <Link to = "/movielogin">
+                        <li>LOGIN/Register</li>
+                    </Link>
                     {/* <Link to ="/moven">
                         <li>ANIMATION</li>
                     </Link> */}
