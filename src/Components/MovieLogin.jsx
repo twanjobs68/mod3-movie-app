@@ -62,7 +62,7 @@ class MovieLogin extends React.Component{
                         <input type="text" name ="username" size = "15" maxLength="30"/>
                     </h2>
                 {/* <!--placeholder for user password--> */}
-                {/* <!--passord will appear as asterisk as typed with the type attribute password--> */}
+                {/* <!--passw=ord will appear as asterisk as typed with the type attribute password--> */}
                     <h2> Password:
                         <input type="password" name ="password" size = "15" maxLength="25"/>
                     </h2> 
