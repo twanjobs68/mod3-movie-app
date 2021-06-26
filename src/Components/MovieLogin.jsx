@@ -1,19 +1,22 @@
 import './Login.css'
 // import './App.css'
 import React from 'react';
-import{Link} from "react-router-dom";
-
-
+// import{Link} from "react-router-dom";
 
 class MovieLogin extends React.Component{
     
     handleEnterClick=() =>{
         console.log("click")
     //    *when you click what do you want to happen*/}
+    // check database for userid and password.  If valid then display "login successful and take user to movie page"
+    // if username match and password doesnt, ask to re-enter password or reset password
+    // if reset password, follow steps to add new password to database and ask user to re-enter username and new password
+    // if userid nor password match in database follow steps to ask user to register
     }
 
     handleRegisterClick=() =>{
         console.log("click")
+        // add registration information to database
     }
 
     // *prevent page from reloading
@@ -23,49 +26,50 @@ class MovieLogin extends React.Component{
 
     render() {
         return (
-        //    <div style={{backgroundColor:"red"}}>
-        <div style={{backgroundImage:'Images/pstars.jpg'}}> 
+          <div>
+        {/* <div style={{backgroundImage:'Images/pstars.jpg'}}>  */}
                 <div className ="loginw">
         
                 {/* <!--Login in page header--> */}
-                {/* <div1 className ="circle"> 
+                {/* <div className ="circle"> 
                     <h1>Welcome to Twans Login/Registration Page</h1>
-                </div1>  */}
+                </div>  */}
         
-                {/* <!--Web page heading--> */}
-                {/* <!-- </form> --> */}
-        
+            
                 {/* <form className = "box" action ="myLogin.html" method= "POST"> */}
                 <form className = "box" onSubmit={this.handleForm} >
         
                 
                 <div>
-                    <h2>
+                        {/* <!--Web page heading--> */}
+                {/* <!-- </form> --> */}
+        
+                    <h3>
                     {/* <h2>Welcome to Twans Login/Registration Page</h2> */}
                     <center>Movie USER LOGIN/Registration</center>       
-                    </h2>
+                    </h3>
                 </div>
                     <br></br>
         
                 <div className="loginreg">
-                    <h2>Registration</h2> 
-                    <h2>Username</h2> 
-                        <input type="text"/>
-                        <h2>Password</h2>
-                            <input type="text"/>
+                    <h3>New Registration</h3> 
+                    <h3>Username</h3> 
+                        <input type="text" name ="regName"/>
+                        <h3>Password</h3>
+                            <input type="password" name ="regPassword"/>
                             <button onClick={this.handleRegisterClick}> Register </button> 
                 </div>
         
                 {/* <!--placeholder for user name  entrance with maximum length of 25 characters--> */}
                 <div>
-                    <h2> Username:
+                    <h3> Username:
                         <input type="text" name ="username" size = "15" maxLength="30"/>
-                    </h2>
+                    </h3>
                 {/* <!--placeholder for user password--> */}
                 {/* <!--passw=ord will appear as asterisk as typed with the type attribute password--> */}
-                    <h2> Password:
+                    <h3> Password:
                         <input type="password" name ="password" size = "15" maxLength="25"/>
-                    </h2> 
+                    </h3> 
                 </div>
         
                 <div>

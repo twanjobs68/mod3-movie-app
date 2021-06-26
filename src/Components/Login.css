@@ -3,20 +3,21 @@
     padding:0;
     font-family:cursive;
     margin:0;
-     
+     background-image: url('/src/Images/pstars.jpg');
     /*background-repeat: no-repeat ;*/
     background-size: cover;
     }
-.circle{
+/* .circle{
       margin: 150;
-    }
-div{
+    } */
+/* div{
     
         color: white;
         
-    }
+    } */
     
 .box{
+      border: 2px solid red;
         /* width: 250px;
         padding:25px; */
         position: absolute;
@@ -27,7 +28,7 @@ div{
         text-align: center;
     }
     
-h2
+h3
     {
         /* border: 1px solid black; */
         color: rgb(182, 171, 21);
@@ -42,7 +43,7 @@ h2
     {
     border: 0;
     margin: 15px auto;
-    background: none;
+    background: green;
     padding:10px 5px;
     display: block;
     border: 2px dashed rgba(114, 241, 24, 0.796);
@@ -59,8 +60,9 @@ h2
       /* when clicking on text or pasword field the field should enlarge  */
       .box input[type="text"] focus,.box input[type="password"]:focus
       {
-      width: 200px;
+      width: 100px;
       border-color: black;
+      background: green;
       }
     
     /*submit button css*/
