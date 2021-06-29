@@ -63,7 +63,8 @@ h1{
   height:100vh; 
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url(Images/DareDevil.jpg);
+  /* background-image: url(Images/DareDevil.jpg); */
+  background-image: url(Images/MaryJ.jpg);
   background-size: cover;  
 
  } 

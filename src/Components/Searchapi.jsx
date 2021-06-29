@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class Searchapi extends Component {
     constructor(){
         super()
@@ -50,11 +49,6 @@ class Searchapi extends Component {
     render() {
     return (
            
-       
-
-   
-
-
         <div className="searchcss">
 
            

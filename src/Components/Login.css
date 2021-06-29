@@ -121,4 +121,36 @@ h3
   margin: 5%;
 
 }
-    
+/* .mHeart:before, */
+.mHeart{
+  position:absolute;
+  width: 110px;
+  height: 110px;
+  content: '';
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  -oborder-radius:50%;
+  border-radius:50%;
+  color: purple;
+  margin: 0em;
+  right: 1em;
+  opacity:75%; 
+
+  
+ } 
+
+.text p{
+float:right; 
+font-size:.8em;
+background-color:gold;
+padding: .5em; 
+top: -4.5em;
+border: 2px dashed white;
+height: 4em;
+width: 4em;
+text-align: center;
+justify-content:space-around;
+color: purple;
+border-radius:50%;
+position:absolute;
+}
