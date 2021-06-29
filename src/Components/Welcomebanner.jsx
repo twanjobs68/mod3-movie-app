@@ -24,7 +24,7 @@ function Welcomebanner() {
                     <p>Happy Searching!!!</p>
                     <p>*****Twan Grant*****</p></strong>
                 <div class="myFlixbx">
-                    <h1>NETFLIX</h1>
+                    <h1><br></br>ADGFLIX</h1>
                 </div>
             </div>
         </div>

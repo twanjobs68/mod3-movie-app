@@ -123,7 +123,7 @@ h3
 }
 /* .mHeart:before, */
 .mHeart{
-  position:absolute;
+  position:fixed;
   width: 110px;
   height: 110px;
   content: '';
@@ -153,4 +153,86 @@ justify-content:space-around;
 color: purple;
 border-radius:50%;
 position:absolute;
+}
+
+
+.boxr{
+      
+   width: 100%;
+   height:100%;
+   image-rendering: webkit-optimize-contrast;
+   background-image: url('/src/Images/pstars.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   text-align: center;
+    }
+
+    .boxr input[type="text"],.box input[type="password"] 
+    {
+   border: 0;
+   margin: 15px auto;
+   background: rgb(231, 216, 6);
+   padding:10px 5px;
+   display: block;
+   border: 2px dashed rgba(114, 241, 24, 0.796);
+   outline:none;
+   color: rgb(22, 21, 3);
+   width:200px;
+   height: 0.1em;
+    /* text-shadow:red; */
+   border-radius: 25px;
+   transition: 0.20px;
+   text-align: center;
+   outline: none;
+  }
+    
+      /* when clicking on text or pasword field the field should enlarge  */
+.boxr input[type="text"] focus,.box input[type="password"]:focus
+  {
+    width: 100px;
+    border-color: black;
+    background: rgb(230, 236, 230);
+  }
+    
+    /*submit button css*/
+.boxr input[type="submit"]{
+    border: 0;
+    margin: 15px auto;
+    background: purple;
+    padding:0px 25px;
+    display: block;
+    border: 3px solid red;
+    outline:none;
+    color: white;
+    cursor:pointer;
+    border-radius: 25px;
+    transition: 0.20px;
+    text-align: center;
+    outline: none;
+  }
+
+  button{ 
+    border: 0;
+    margin: 15px auto;
+    background: purple;
+    padding:0px 25px;
+    display: block;
+    border: 3px solid red;
+    outline:none;
+    color: white;
+    cursor:pointer;
+    border-radius: 25px;
+    transition: 0.20px;
+    text-align: center;
+    outline: none;
+
+
+  }
+    
+.boxr input[type="submit"]:hover{
+    background: rgba(255, 166, 0, 0.76);
 }

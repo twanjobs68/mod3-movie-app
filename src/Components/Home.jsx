@@ -11,7 +11,11 @@ function Home() {
                       <h1>NETFLIX</h1>
                    </div>
 
-
+                   <div className="mHeart">
+                            <blockquote className="text">
+                               <p><br></br><strong>ADGFLIX</strong></p>
+                            </blockquote>
+                        </div>
         </div>
 
         

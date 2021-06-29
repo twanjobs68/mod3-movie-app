@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Login.css';
 import axios from 'axios';
+import {Link} from 'react-router-dom';
 
 
 class MovieLogin extends React.Component {
@@ -25,9 +26,10 @@ class MovieLogin extends React.Component {
     handleChange(event) {
 
         this.setState({
-            [event.target.name]: event.taget.value
-
+            [event.target.name]: event.target.value
+           
         });
+        console.log(this.state)
 
     }
     // ***********************Login*******
@@ -42,19 +44,19 @@ class MovieLogin extends React.Component {
     handleLoginClick(event) {
         const { userName, password } = this.state;
         console.log(userName, password);
-
+         
         axios
             .post(
-                "http://localhost:8080/movielogin",
-                {
-                    user: {
+                "http://localhost:8000/movielogin",
+                
+                    {
                         username: userName,
                         password: password
                     }
-                },
+               
                 // withCredentials indicates whether or not cross-site Access-Control requests should be made using credentials provided.  In
                 //this case use credentials for username and passwprd fpr validation.
-                { withCredentials: true }
+                // { withCredentials: true }
             )
             .then(response => {
                 console.log("Response From Login", response);
@@ -72,17 +74,19 @@ class MovieLogin extends React.Component {
         console.log("click")
         const { email, userName, password } = this.state;
         console.log(email, userName, password);
+        event.preventDefault();
 
         axios
             .post(
-                "http://localhost:8080/movielogin",
-                {
-                    user: {
-                        email: email,
-                        username: userName,
-                        password: password
+                "http://localhost:8000/movielogin",
+                
+                    {
+                        
+                        userName: userName,
+                        password: password,
+                        email: email
                     }
-                },
+                
                 //  { withCredentials: true }
             )
             .then(response => {
@@ -111,7 +115,7 @@ class MovieLogin extends React.Component {
 
                     {/* Login Form */}
                     {/* <form className="box" onSubmit={this.handleForm} > */}
-                    <form className="box" onSubmit={this.handleLoginClick} >
+                    <form className="box" onSubmit={this.handleLoginClick} onChange={this.handleChange} >
 
                         <div className="pHeader">
                             {/* <!--Web page heading--> */}
@@ -128,10 +132,12 @@ class MovieLogin extends React.Component {
                             <h4>Email</h4>
                             <input type="text" name="email" />
                             <h4>Password</h4>
-                            <input type="password" name="passWord" />
+                            <input type="password" name="password" />
                             <button onClick={this.handleRegisterClick}> Register </button>
                         </div>
+                    
 
+                    {/* <form onSubmit={this.handleLoginClick} > */}
                         {/* <!--placeholder for user name  entrance with maximum length of 25 characters--> */}
                         <div className="oLogin">
                             <br></br>
@@ -149,12 +155,12 @@ class MovieLogin extends React.Component {
 
                             <div>
                                 {/* <!-- create Enter button --> */}
-                                <input type="submit" name="" value="LOGIN" onClick={this.handleEnterClick} />
+                               <Link to = "/searchapi"> <input type="submit" name="" value="LOGIN" onClick={this.handleEnterClick} /></Link>
                             </div>
                         </div>
                         <div className="mHeart">
                             <blockquote className="text">
-                               <p><br></br><strong>ADGFLIX</strong></p>
+                           <p><br></br><strong>ADGFLIX</strong></p> 
                             </blockquote>
                         </div>
                     </form>

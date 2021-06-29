@@ -45,17 +45,18 @@ function Credits() {
                 </div>
                     <br></br>
                   <div className="who" style={infoStyle}>
-                         <h3>Manara Ali- Advisory</h3>
-                         <h3>Per Scholas Classmates-Encouragement</h3>
-                         <h3>Shawn Harris- Inspiration</h3>
-                         <h3> Per Scholas Instructor and TA - Guidance</h3>
-                         <h4>Kaedin Grant(my son) - For keeping me awake when I want a NAP!!!</h4>
+                         <h4>" God" for keeping me SANE through it all!!</h4>
+                         <h4>Per Scholas TA - Daquan Johnson-
+                             (Last minute Knowledge!)</h4>
+                         <h4>Classmates-Encouragement</h4> 
+                       <blink> <marquee> <strong><h5>"WE MADE IT!!!!!"       HAPPY GRADUATION TO All !!!</h5></strong></marquee></blink>
                          {/* <h3>Photo by <a href="https://unsplash.com/@alexbemore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Shatov</a> on <a href="https://unsplash.com/s/photos/netflix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
   {/* </h3> */}
                     </div>  
                     <div class="myFlixbx">
-                      <h1>NETFLIX</h1>
+                      <h1><br></br>ADGFLIX</h1>
                    </div>
+                   
                
             </div>
         );

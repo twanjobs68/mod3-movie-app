@@ -10,7 +10,7 @@ function Navbr() {
 //<div className="testPic">
             <div className="sideMenu">
                 <ul>
-                    <Link to= "/">
+                    <Link to= "/searchapi">
                         <h3>HOME</h3>
                     </Link>
 
@@ -29,7 +29,7 @@ function Navbr() {
 
                     <br></br>
                     <Link to = "/movielogin">
-                        <li>LOGIN/Register</li>
+                        <li>LOGIN/REGISTER</li>
                     </Link>
                     {/* <Link to ="/moven">
                         <li>ANIMATION</li>

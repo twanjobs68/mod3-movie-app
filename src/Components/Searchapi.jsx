@@ -77,8 +77,9 @@ class Searchapi extends Component {
             </form>
                          
             <div class="myFlixbx">
-                <h1>NETFLIX</h1>
+                <h1><br></br>ADGFLIX</h1>
             </div>
+            
         </div>
     </div>
     );}

@@ -24,7 +24,7 @@ function App() {
        {/*4.Use Switch(wrap routes in a switch tag. go to path don't render anything else) and Exact to go to exact(if component is exactly the forward slash then go to home) paths*/}
        {/* <Switch> */}
              <Route path ="/home" exact component={Home} />  
-          {/* <Route path ="/movielogin" exact component={MovieLogin} />   */}
+            <Route path ="/movielogin" exact component={MovieLogin} />   
              <Route path="/welcomebanner" component={Welcomebanner}/>
              <Route path ="/searchapi" component={Searchapi}/>
              <Route path="/credits" component={Credits}/>

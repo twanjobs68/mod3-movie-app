@@ -4,7 +4,8 @@ class Netflixlogo extends Component {
     render() {
         return (
             <div class="tgFlixbx">
-                <h1>NETFLIX</h1>
+                <br></br>
+                <h4>ADGFLIX</h4>
             </div>
         );
     }

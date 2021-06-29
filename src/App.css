@@ -12,30 +12,39 @@
   height: 22px;
   bottom: -25px;
   right: 35px;
- 
+  font-size: 25px;
 }
 
 .myFlixbx{
   position: absolute;
    /* margin: 36%;*/
-   bottom: -25px;
+   bottom: -0px;
    right: 35px;
+  
+   
   }
 
 h1{
 
-     height: 22vm;
-  width: 160px;
-  /* text-align: center; */
-  background: red;
-  color: white;
-  border: 3px solid black;
-  margin: 20%; 
-  bottom: 15%;
- /* justify-content: center;*/
-  align-items:flex-end;
+  height: 4.5em;
+  width: 4.5em;
+  text-align: center;
+  background: gold;
+  color: purple;
+  float: right;
+  border: 3px dashed white;
+  margin: 0%; 
+  bottom: 30%;
+  border-radius: 50%; 
+ justify-content: center;
+align-items:center;
+font-size: 22px;
  }
 
+ h5{
+   color: black;
+   text-decoration:underline;
+ }
  .homecss{
   background-color: red;
 }
@@ -54,8 +63,8 @@ h1{
   position:absolute;
   /* display:flex; */
   color:white;
-  /* linear-gradient=(to-right, black,gray);  */
-  /* border: 2px solid black; */
+  /* opacity: 50%; */
+
 }
 
 .bgPicture{
@@ -71,6 +80,7 @@ h1{
 
 li{
   list-style: none;
+  color:purple;
 }
 #movieSelector{
   color:black;
@@ -89,14 +99,17 @@ li{
 
 .searchcss{
 display:flex;
-border: 2px solid red;
+/* border: 2px solid black; */
 box-shadow: 0 0 100px ;
-height: 31em;
+height: 40em;
 width: 35em;
 justify-content: center ;
+top: 100%;
+bottom: 100%;
 margin:auto;
 align-items: center;
-background: linear-gradient(10deg,red , pink 30%, white );
+
+background: linear-gradient(20deg,white, gold, purple, white, gold );
 }
 
 
@@ -111,7 +124,7 @@ background: linear-gradient(10deg,red , pink 30%, white );
 } 
 
 .credits{
-  background: linear-gradient(0deg,red , pink 30%, white );
+  background: linear-gradient(0deg,red , pink 30%,  red , white);
   
 }
 .welcomeBanner{
@@ -233,8 +246,8 @@ myNHdr {
   font-weight:bold;
   text-decoration: none;
   display:block;
-  background: red;
-  border:5px inset red;
+  background: purple;
+  border:5px inset black;
   }
 /*  */
 
