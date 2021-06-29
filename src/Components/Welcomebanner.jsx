@@ -1,5 +1,5 @@
 import React from 'react';
-// import Searchapi from './Components/Searchapi';
+
 function Welcomebanner() {
 
     const welcomestyle = {
