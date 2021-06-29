@@ -74,7 +74,7 @@ class MovieLogin extends React.Component {
         console.log(email, userName, password);
 
         axios
-            .update(
+            .post(
                 "http://localhost:8080/movielogin",
                 {
                     user: {
@@ -110,7 +110,8 @@ class MovieLogin extends React.Component {
 
 
                     {/* Login Form */}
-                    <form className="box" onSubmit={this.handleForm} >
+                    {/* <form className="box" onSubmit={this.handleForm} > */}
+                    <form className="box" onSubmit={this.handleLoginClick} >
 
                         <div className="pHeader">
                             {/* <!--Web page heading--> */}
