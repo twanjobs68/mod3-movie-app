@@ -52,6 +52,15 @@ font-size: 22px;
 .creditsBackground{
   background-color: black;
 }
+.namediv{
+  font-weight: 800;
+  margin: 15px;;
+  top:100%;
+  bottom:100%;
+  color:rgb(48, 8, 48);
+  font-size: xx-large;
+ 
+}
 
 .sideMenu{
   background-color:black;

@@ -64,7 +64,11 @@ class Searchapi extends Component {
         
                 {/*1.w create buttons and input for data search*/}
                 {/*2w <input type="text" name="query" className="input"/> */}
+                
         <div className="searchBar"> 
+           <div className ="namediv">
+             <center><p>ADGFLIX</p></center>
+           </div>
              <div id="movieSelector"><strong>MOVIE SELECTOR</strong></div><br>
              </br>
              <br>
