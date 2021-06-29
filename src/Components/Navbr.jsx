@@ -18,7 +18,7 @@ function Navbr() {
                           <li> WELCOME</li>
                     </Link>
                     <br></br>
-                    <Link to = "/searchapi">
+                    <Link to = "/home">
                         <li>SEARCH</li>
                     </Link>
 
@@ -29,7 +29,7 @@ function Navbr() {
 
                     <br></br>
                     <Link to = "/movielogin">
-                        <li>LOGIN/REGISTER</li>
+                        <li>LOGOUT </li>
                     </Link>
                     {/* <Link to ="/moven">
                         <li>ANIMATION</li>

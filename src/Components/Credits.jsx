@@ -37,7 +37,7 @@ function Credits() {
             <div className="creditsBackground">
     
                  <div className="credits" style={creditStyle}>
-                  <strong><center> <h2>CREDITS</h2> </center></strong>
+                  <marquee><strong><center> <h2>CREDITS! CREDITS! CREDITS! CREDITS!</h2> </center></strong></marquee>
                 </div>
             
                 <div classnName="thankYou" style={thanksStyle}>
@@ -46,8 +46,7 @@ function Credits() {
                     <br></br>
                   <div className="who" style={infoStyle}>
                          <h4>" God" for keeping me SANE through it all!!</h4>
-                         <h4>Per Scholas TA - Daquan Johnson-
-                             (Last minute Knowledge!)</h4>
+                         <h4>Per Scholas TA - Daquan Johnson-(Last minute Knowledge!)</h4>
                          <h4>Classmates-Encouragement</h4> 
                        <blink> <marquee> <strong><h5>"WE MADE IT!!!!!"       HAPPY GRADUATION TO All !!!</h5></strong></marquee></blink>
                          {/* <h3>Photo by <a href="https://unsplash.com/@alexbemore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Shatov</a> on <a href="https://unsplash.com/s/photos/netflix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}

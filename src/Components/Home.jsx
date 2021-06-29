@@ -5,17 +5,15 @@ function Home() {
         <div className="bgPicture">
 
              <h3>HOME</h3> 
-
+             <br></br>
+             <center><p>This page is dedicated to MARY J.BLIGE!  The Queen of Hip Hop!!  Her music is to be cherished!!!</p></center>
+             <center><p>LOVE YOU MARY J!!!!!!!</p></center>
 
              <div class="myFlixbx">
-                      <h1>NETFLIX</h1>
+                      <h1><br></br>ADGFLIX</h1>
                    </div>
 
-                   <div className="mHeart">
-                            <blockquote className="text">
-                               <p><br></br><strong>ADGFLIX</strong></p>
-                            </blockquote>
-                        </div>
+                 
         </div>
 
         
