@@ -145,11 +145,11 @@ background: linear-gradient(20deg,white, gold, purple, white, gold );
 .welcomeBanner{
   /* background: linear-gradient(35deg , red, pink 30%, white);
   background: linear-gradient(45deg, red, pink 10%, white); */
-  background: -ms-radial-gradient(white 35% , pink, red);
-  background: -moz-radial-gradient(white 35%, pink, red);
-  background: -webkit-radial-gradient(white 35%, pink, red);
-  background: -o-radial-gradient(white 35%, pink, red);
-  background: radial-gradient(white 35%, pink, red);
+  background: -ms-radial-gradient(white 35% ,purple,gold);
+  background: -moz-radial-gradient(white 35%, purple,gold);
+  background: -webkit-radial-gradient(white 35%, purple,gold);
+  background: -o-radial-gradient(white 35%, purple, gold);
+  background: radial-gradient(white 35%, purple,gold);
   justify-content: center;
   align-items: center;
 }
