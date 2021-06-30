@@ -50,7 +50,7 @@ font-size: 22px;
 }
 
 .creditsBackground{
-  background-color: black;
+  background-color: gray;
 }
 .namediv{
   font-weight: 800;
@@ -59,6 +59,7 @@ font-size: 22px;
   bottom:100%;
   color:rgb(48, 8, 48);
   font-size: xx-large;
+  position:fixed;
  
 }
 
@@ -139,8 +140,8 @@ background: linear-gradient(20deg,white, gold, purple, white, gold );
 } 
 
 .credits{
-  background: linear-gradient(0deg,red , pink 30%,  red , white);
-  
+  /* background: linear-gradient(0deg purple , pink 30%, purple , white); */
+  border: 2px solid black;
 }
 .welcomeBanner{
   /* background: linear-gradient(35deg , red, pink 30%, white);

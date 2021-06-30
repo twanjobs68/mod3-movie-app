@@ -7,18 +7,18 @@ function Credits() {
         
        justify_content: "center",
         align: "center",
-        border: "2px solid red",
+        border: "2px solid black",
        
 
            
          }
          const infoStyle={
-             background: "red",
+             background: "purple",
              border: "2px solid black",
              height: "15em",
              width: "35em",
              margin: "auto",
-             color: "white",
+             color: "gold",
              justify_content: "center",
          }
          const thanksStyle={
@@ -28,8 +28,8 @@ function Credits() {
              margin:"auto",
              flex_direction:"flex-end",
              justify_content: "right",
-             background: "black",
-             color: "red"
+             background: "gold",
+             color: "purple"
            
          }
 
