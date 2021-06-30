@@ -100,7 +100,7 @@ class MovieLogin extends React.Component {
 
             }
 
-        // *prevent page from reloading
+        // *prevent page from reloading when returning from a component
         //  handleForm = (e) => {
         //      e.preventDefault()
         //  }
