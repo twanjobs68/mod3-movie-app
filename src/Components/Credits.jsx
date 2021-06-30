@@ -48,7 +48,7 @@ function Credits() {
                          <h4>" God" for keeping me SANE through it all!!</h4>
                          <h4>Per Scholas TA - Daquan Johnson-(Last minute Knowledge!)</h4>
                          <h4>Classmates-Encouragement</h4> 
-                       <blink> <marquee> <strong><h5>"WE MADE IT!!!!!"       HAPPY GRADUATION TO All !!!</h5></strong></marquee></blink>
+                       <marquee> <strong><h5>"WE MADE IT!!!!!"       HAPPY GRADUATION TO All !!!</h5></strong></marquee>
                          {/* <h3>Photo by <a href="https://unsplash.com/@alexbemore?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Shatov</a> on <a href="https://unsplash.com/s/photos/netflix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */}
   {/* </h3> */}
                     </div>  

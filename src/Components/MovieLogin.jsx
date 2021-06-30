@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Login.css';
 import axios from 'axios';
+// import dedication from './Components.Dedication';
 import {Link} from 'react-router-dom';
 
 

@@ -69,6 +69,7 @@ class Searchapi extends Component {
            <div className ="namediv">
              <center><p>ADGFLIX</p></center>
            </div>
+           
              <div id="movieSelector"><strong>MOVIE SELECTOR</strong></div><br>
              </br>
              <br>

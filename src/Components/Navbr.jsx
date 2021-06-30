@@ -18,7 +18,7 @@ function Navbr() {
                           <li> WELCOME</li>
                     </Link>
                     <br></br>
-                    <Link to = "/home">
+                    <Link to = "/searchapi">
                         <li>SEARCH</li>
                     </Link>
 
@@ -28,12 +28,13 @@ function Navbr() {
                     </Link>
 
                     <br></br>
-                    <Link to = "/movielogin">
+                    <Link to = "/MovieLogin">
                         <li>LOGOUT </li>
                     </Link>
-                    {/* <Link to ="/moven">
-                        <li>ANIMATION</li>
-                    </Link> */}
+                    <br></br>
+                     <Link to = "/dedication">
+                        <li>DEDICATION</li>
+                    </Link> 
                 </ul>
             </div>
  //       </div>
