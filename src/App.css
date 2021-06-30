@@ -166,7 +166,7 @@ background: linear-gradient(20deg,white, gold, purple, white, gold );
   background: repeating-linear-gradient(pink, gray 10% white 30%); 
 
 }
-/********Use code below to upscale for ************************/
+/********Use code below to upscale for responsiveness for mobile devices************************/
 .netN {
   display: grid;
   align-items: center;
