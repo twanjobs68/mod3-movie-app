@@ -19,7 +19,7 @@ class MovieLogin extends React.Component {
 
         //  this.setState({ 
 
-        //pass data to each of these functions as argument
+        //pass data to each of these functions as argument to keep state
         this.handleLoginClick = this.handleLoginClick.bind(this);
         this.handleChange = this.handleChange.bind(this);
     }
